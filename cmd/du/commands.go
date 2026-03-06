@@ -11,9 +11,9 @@ import (
 
 func GetAvailableCommands() cli.Command {
 	return cli.Command{
-		Name:    "hexlet-path-size",
-		Version: "0.0.1",
-		Usage:   "./hexlet-path-size --human [some file name]",
+		Name:    "so1-du",
+		Version: "1.0.0",
+		Usage:   "./so1-du --human [some file name]",
 		Flags: []cli.Flag{
 			&cli.BoolFlag{
 				Name:    "human, H",
